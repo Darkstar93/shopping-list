@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+}
+
+html {
+	margin: none;
+}
+
+body {
+	
+}
+.header {
+	background-color: white;
+	background-image: url('../images/kitchen.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 16px;
+	padding-bottom: 300px;
+	width: 100%;
+	height: 10%;
+	
+	 -webkit-box-reflect: below;
+	 -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.3)));
+	
+}
+
+
+.shop {
+	 /* Layout Declarations */
+  
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  
+  color: #7ADEEF;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0pc 3px 0px #5F9EA0;
+  text-align: center;
+  padding-bottom: 10rem;
+
+
+	
+	}
+	.heading {
+max-width: 19em;
+  margin-top: 2em;
+  font-size: 1.8em;
+}
