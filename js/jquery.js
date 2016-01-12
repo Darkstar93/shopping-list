@@ -1,7 +1,8 @@
-$container.imagesLoaded(function() {
+$(document).ready(function() {
+ $('button').click(function() {
 
-$('h1').masonry();
-
-$("h1").animate({opacity: 1});
-
+    var new_task = $('#input').val();
+    $('#list').append('<li>'+new_task+'</li>');
+     return false;
+ });
 });
