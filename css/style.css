@@ -2,14 +2,34 @@
 	margin: 0px;
 }
 
-html {
-	margin: none;
-}
+html { 
+  background: url('../images/food1.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
+}
+img {
+	-webkit-filter: blur(13px);
+    -moz-filter: blur(13px);
+    -o-filter: blur(13px);
+    -ms-filter: blur(13px);
+    filter: blur(13px);
+}
 body {
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+
 	
 }
 
+.background-image {
+
+}
 
 
 .shop {
@@ -38,16 +58,19 @@ max-width: 19em;
   font-size: 1.8em;
 }
 
+
  input[type='text']
  {
  	width: 300px;
  	height: 35px;
  	background-color: white;
- 	position: center;
+ 	position: relative;
+	
 
  }
 
- button {
+
+ #add {
  	width:40px;
  	height: 40px;
  	color: blue;
@@ -62,3 +85,50 @@ max-width: 19em;
  	margin: 5px;
  	border: solid white;
  }
+ h2 {
+ 	font-family: 'Oxygen', sans-serif;
+ 	position: center;
+	margin: auto;
+
+ }
+
+ .form-list {
+ 	
+ 	position: relative;
+ 	text-align: center;
+	margin: auto;
+	overflow: auto;
+
+ }
+
+
+.container {
+	position: relative;
+	border: solid 2px black;
+	border-radius: 20px;
+	padding: 50px;
+	margin-left: 100px;
+	width: 50%;
+	height: 50%;
+	position: center;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	vertical-align: middle;
+	display: block;
+	overflow: auto;
+}
+ul {
+	list-style: none;
+	text-align: center;
+	margin: auto;
+}
+#list {
+	font-size: 25px;
+	margin: auto;
+	
+	text-align: center;
+}
+
+
+
