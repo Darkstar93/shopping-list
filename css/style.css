@@ -53,3 +53,8 @@ input[type='text']
  	font-size: 52px;
  	margin: auto;
  }
+
+ .checkbox {
+ 	width: 4000px;
+ 	height: 4990px;
+ }

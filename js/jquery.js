@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 $('button.submit').click(function() {
-	var new_task = $('input').val() + " qty " + $('input + input').val();
+	var new_task = $('input').val() + "          " + $('input + input').val();
 	var $deleteButton = $('<button />').addClass('remove').text('Delete');
 	var $li = $('<li />').text(new_task);
 	var $quantityButton = $('<input type="checkbox" />');
