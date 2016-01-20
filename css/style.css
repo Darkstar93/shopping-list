@@ -8,35 +8,34 @@ body#background {
 
 input[type='text']
  {
- 	width: 285px;
+ 	width: 245px;
  	height: 35px;
  	background-color: white;
- 	position: relative;
+ 	max-width: 245;
  	font-size: 20px;
-	
-
  }
 
  input[type='number']
  {
  	width: 40px;
+ 	max-width: 40px;
  	height: 35px;
  	background-color: white;
- 	position: fixed;
+ 	
  	font-size: 20px;
  }
 
 
 .container {
 
-	position: relative;
+	
 	border: solid 2px white;
 	border-radius: 20px;
 	padding: 50px;
 	margin-left: 100px;
-	width: 50%;
+	width: 	75%;
 	height: 50%;
-	position: center;
+	
 	text-align: center;
 	background-color: white;
 	margin: auto;
@@ -48,22 +47,34 @@ input[type='text']
  	font-family: 'Oxygen', sans-serif;
 	list-style: none;
 	font-size: 30px;
+	padding: 10px;
  }
 
 
 
  h2 {
  	font-family: 'Old Standard TT', serif;
- 	font-size: 52px;
+ 	font-size: 56px;
  	margin: auto;
  }
 
- .checkbox {
- 	width: 4000px;
- 	height: 4990px;
- }
 
+.submit{
+background-image: url('../images/cart.png'); background-repeat: no-repeat;
+background-size: 100%;
 
+background-color: white;
+border: none;
+width: 55px;
+height: 55px;
+padding: 20px;
+}
+
+.remove{
+	background-image: url('../images/x.png'); background-repeat: no-repeat;
+	display: inline;
+
+}
 
 
 
