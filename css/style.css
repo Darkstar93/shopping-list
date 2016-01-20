@@ -8,7 +8,7 @@ body#background {
 
 input[type='text']
  {
- 	width: 300px;
+ 	width: 285px;
  	height: 35px;
  	background-color: white;
  	position: relative;
@@ -25,6 +25,8 @@ input[type='text']
  	position: fixed;
  	font-size: 20px;
  }
+
+
 .container {
 
 	position: relative;
@@ -48,6 +50,8 @@ input[type='text']
 	font-size: 30px;
  }
 
+
+
  h2 {
  	font-family: 'Old Standard TT', serif;
  	font-size: 52px;
@@ -58,3 +62,19 @@ input[type='text']
  	width: 4000px;
  	height: 4990px;
  }
+
+
+
+
+
+ .item {
+     width:100px;
+     display:inline-block;
+ }
+
+ body{
+    box-sizing:border-box;
+}
+*, *:before, *:after {
+    box-sizing:inherit;
+}

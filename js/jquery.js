@@ -8,6 +8,7 @@ $('button.submit').click(function() {
 	var $li = $('<li />').text(new_task);
 	var $quantityButton = $('<input type="checkbox" />');
 
+
 	$('#list').append($li);
 	$quantityButton.appendTo($li);
 	$deleteButton.appendTo($li);
@@ -34,4 +35,7 @@ $('#list').on('change', 'input[type=checkbox]', function() {
 		$li.css('textDecoration', 'none');
 		return false;
 	}
+
+
+	
 });
