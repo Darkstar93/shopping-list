@@ -1,109 +1,104 @@
 body#background {
-	background: url('../images/yum.jpeg') no-repeat 50% 50% fixed;
-	background-size: cover;
-	 -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
+    background: url(../images/yum.jpeg) no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
 }
 
-input[type='text']
- {
- 	width: 245px;
- 	height: 35px;
- 	background-color: white;
- 	max-width: 245;
- 	font-size: 20px;
- }
+input[type='text'] {
+    width: 220px;
+    height: 35px;
+    background-color: #fff;
+    max-width: 245px;
+    font-size: 20px;
+}
 
- input[type='number']
- {
- 	width: 40px;
- 	max-width: 40px;
- 	height: 35px;
- 	background-color: white;
- 	
- 	font-size: 20px;
- }
-
+input[type='number'] {
+    width: 40px;
+    max-width: 40px;
+    height: 35px;
+    background-color: #fff;
+    font-size: 20px;
+}
 
 .container {
-	border: solid 2px white;
-	border-radius: 20px;
-	padding: 50px;
-	margin-left: 100px;
-	width: 	75%;
-	height: 50%;
-	
-	text-align: center;
-	background-color: white;
-	margin: auto;
-	vertical-align: middle;
-	display: block;
-	
-}
- ul {
- 	font-family: 'Oxygen', sans-serif;
-	list-style: none;
-	font-size: 30px;
-	
-	text-align: left;
-
- }
-
-
-
- h2 {
- 	font-family: 'Old Standard TT', serif;
- 	font-size: 56px;
- 	margin: auto;
- }
-
-
-.submit{
-background-image: url('../images/cart.png'); background-repeat: no-repeat;
-background-size: 100%;
-
-background-color: white;
-border: none;
-width: 55px;
-height: 55px;
-padding: 20px;
-
-
+    border: solid 2px #fff;
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 100px;
+    width: 75%;
+    height: 50%;
+    text-align: center;
+    background-color: #fff;
+    margin: auto;
+    vertical-align: middle;
+    display: block;
 }
 
-.remove{
-	background-image: url('../images/redx.png'); background-repeat: no-repeat;
-	background-size: 100%;
-	background-color: white;
-	border: none;
-	width: 20px;
-	height: 20px;
-	
-	float: right;
-	
+ul {
+    font-family: 'Oxygen',sans-serif;
+    list-style: none;
+    font-size: 26px;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Old Standard TT',serif;
+    font-size: 56px;
+    margin: auto;
+}
+
+.submit {
+    background-image: url(../images/cart.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.remove {
+    background-image: url(../images/redx.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #fff;
+    border: none;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+    margin: 0;
+    display: inline-block;
 }
 
 li {
-	padding-right: 30px;
-	padding-left: 30px;
+    padding-right: 80px;
+    padding-left: 60px;
 }
 
- 
-
- body{
-    box-sizing:border-box;
+.xsize {
+    font-size: 2px;
 }
-*, *:before, *:after {
-    box-sizing:inherit;
+
+body {
+    box-sizing: border-box;
+}
+
+*,:before,:after {
+    box-sizing: inherit;
 }
 
 input[type='checkbox'] {
-   padding: 5px;
-    width:20px;
-    height:20px;
-    background:white;
-    border-radius:5px;
-    border:2px solid #555;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid #555;
     float: right;
+    margin: 0;
 }
