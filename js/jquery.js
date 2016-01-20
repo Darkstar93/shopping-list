@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	$('body').css('opacity', '0').fadeTo(1500, 1,'swing'); 
 
+
+
 	
 });
 
@@ -11,10 +13,17 @@ $('button.submit').click(function() {
 	var $quantityButton = $('<input type="checkbox" />');
 
 
+
 	$('#list').append($li);
 	$quantityButton.appendTo($li);
 	$deleteButton.appendTo($li);
 	$("form").trigger("reset");
+
+	$('form').ready(function(){
+   if($(this).val() == ''){
+      alert('Enter list items');
+   }
+});
 
 
 	return false;
@@ -25,10 +34,14 @@ $('button.submit').click(function() {
 $('#list').on('click', '.remove', function() {
 	$(this).parent().remove();
 	console.log($(this));
+
+
 });
 
 
-$('#list').on('change', 'input[type=checkbox]', function() {
+
+
+$('#list').on('change', 'input[type="checkbox"]', function() {
 	var $li = $(this).parent();
 
 	if ($(this).is(':checked')){

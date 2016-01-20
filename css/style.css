@@ -27,8 +27,6 @@ input[type='text']
 
 
 .container {
-
-	
 	border: solid 2px white;
 	border-radius: 20px;
 	padding: 50px;
@@ -47,7 +45,9 @@ input[type='text']
  	font-family: 'Oxygen', sans-serif;
 	list-style: none;
 	font-size: 30px;
-	padding: 10px;
+	
+	text-align: left;
+
  }
 
 
@@ -68,24 +68,42 @@ border: none;
 width: 55px;
 height: 55px;
 padding: 20px;
+
+
 }
 
 .remove{
-	background-image: url('../images/x.png'); background-repeat: no-repeat;
-	display: inline;
-
+	background-image: url('../images/redx.png'); background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: white;
+	border: none;
+	width: 20px;
+	height: 20px;
+	
+	float: right;
+	
 }
 
+li {
+	padding-right: 30px;
+	padding-left: 30px;
+}
 
-
- .item {
-     width:100px;
-     display:inline-block;
- }
+ 
 
  body{
     box-sizing:border-box;
 }
 *, *:before, *:after {
     box-sizing:inherit;
+}
+
+input[type='checkbox'] {
+   padding: 5px;
+    width:20px;
+    height:20px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    float: right;
 }
